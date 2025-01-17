@@ -5,6 +5,7 @@
 ## 🌻 목표 : B형 취득
 
 ### 🪴 알고리즘 이해도
+
 🌱 문하은 : 전혀 모름!
 
 🚶‍♀️이솔빈 : 맨 처음부터 알아가고있어요
@@ -13,8 +14,19 @@
 
 ✅ 이현지 : 개념은 알고있지만 설계 및 구현이 부족함
 
+### 🪴 Branch
+
+본인 이름으로 Branch 하나 생성 후 해당 Branch 로 add 하기!
+충돌이 일어나지 않게 주의
+후에 Pull Request 후 Merge 예정
+
+### 🪴 Git Commit Message 양식
+
+본인 이름을 먼저 입력 후 commit message 작성!
+예시) [haeun] Create README.md
 
 ### 🪴 지각시
+
 1회 - 1,000원
 
 2회 - 2,000원
