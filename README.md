@@ -17,12 +17,15 @@
 ### 🪴 Branch
 
 본인 이름으로 Branch 하나 생성 후 해당 Branch 로 add 하기!
+
 충돌이 일어나지 않게 주의
+
 후에 Pull Request 후 Merge 예정
 
 ### 🪴 Git Commit Message 양식
 
 본인 이름을 먼저 입력 후 commit message 작성!
+
 예시) [haeun] Create README.md
 
 ### 🪴 지각시
