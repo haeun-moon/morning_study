@@ -1,0 +1,24 @@
+import java.util.Scanner;
+import java.io.FileInputStream;
+ 
+class Solution
+{
+    public static void main(String args[]) throws Exception
+    {
+        Scanner sc = new Scanner(System.in);
+        // A의 입력값
+        int a = sc.nextInt();
+        // B의 입력값
+        int b = sc.nextInt();
+        // 승자
+        String winner = "";
+         
+        if(b-a == 1 || b-a == -2) {
+            winner = "B";
+        } else {
+            winner = "A";
+        }
+         
+        System.out.println(winner);
+    }
+}
