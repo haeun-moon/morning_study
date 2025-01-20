@@ -1,0 +1,22 @@
+import java.util.Scanner;
+import java.io.FileInputStream;
+import java.util.Arrays;
+ 
+class Solution
+{
+    public static void main(String args[]) throws Exception
+    {
+        Scanner sc = new Scanner(System.in);
+        // 점수의 갯수(홀수)
+        int odd = sc.nextInt();
+        // 입력받은 점수들을 담는 배열(점수의 갯수를 크기로)
+        int[] numArr = new int[odd];
+        // 반복문을 돌면서 점수를 배열에 담아줌
+        for(int i=0; i<odd; i++) {
+            numArr[i] = sc.nextInt();
+        }
+        // 오름차순으로 정렬
+        Arrays.sort(numArr);
+        System.out.println(numArr[(odd-1)/2]);
+    }
+}

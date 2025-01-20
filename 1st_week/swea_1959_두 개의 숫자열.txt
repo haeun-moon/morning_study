@@ -1,0 +1,54 @@
+import java.util.Scanner;
+import java.io.FileInputStream;
+ 
+class Solution
+{
+    public static void main(String args[]) throws Exception
+    {
+        Scanner sc = new Scanner(System.in);
+        int T;
+        T=sc.nextInt();
+        int[] arr1;
+        int[] arr2;
+        int first = 0;
+        int second = 0;
+        int max = 0;
+        for(int test_case = 1; test_case <= T; test_case++) {
+            int sum = 0;
+            max = 0;
+            first = sc.nextInt();
+            second = sc.nextInt();
+            arr1 = new int[first];
+            arr2 = new int[second];
+             
+            for(int i = 0; i < first; i++) {
+                arr1[i] = sc.nextInt();
+            }
+            for(int j = 0; j < second; j++) {
+                arr2[j] = sc.nextInt();
+            }
+            // 비교를 위한 두개의 배열 중 항상 첫번째 배열의 길이가 적도록
+            if(first > second) {
+                int tmp = first;
+                first = second;
+                second = tmp;
+                int[] tmpArr = arr1;
+                arr1 = arr2;
+                arr2 = tmpArr;
+            }
+             
+             
+            for(int k = 0; k <= second-first; k++) {
+                sum = 0;
+                for(int l = 0; l < first; l++) {
+                    sum += arr1[l] * arr2[k + l];
+                }
+                // 계산 결과(sum)가 max에 저장 된 값 보다 큰경우에만 대입
+                if (sum > max) {
+                    max = sum;
+                }
+            }
+            System.out.println("#"+test_case+" "+max);
+        }
+    }
+}
