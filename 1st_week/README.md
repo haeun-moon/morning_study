@@ -1,5 +1,5 @@
-# 1st_week
-## 01/21 & 01/23
+# 1st_week morning study
+## 01/21 화 & 01/23 목 진행
 
 ### SWEA / Solving Club - SSAFY 13기 사전학습 / Problem Box - 알고리즘 Track
 
